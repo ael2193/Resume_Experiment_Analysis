@@ -1,4 +1,5 @@
 import streamlit
+import sklearn
 from predict_page import show_predict_page
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
