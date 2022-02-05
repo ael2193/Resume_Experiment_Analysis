@@ -3,6 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 
+
 def load_model():
     with open('saved_steps.pkl', 'rb') as file:
         data = pickle.load(file)
